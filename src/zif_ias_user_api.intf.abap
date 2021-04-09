@@ -54,6 +54,10 @@
             ref     TYPE string,
           END   OF ty_group.
 
+   TYPES: BEGIN OF ty_update_group,
+            value TYPE string,
+          END   OF ty_update_group.
+
    TYPES: BEGIN OF ty_manager,
             display_name TYPE string,
             value        TYPE string,
@@ -175,6 +179,7 @@
             addresses                      TYPE STANDARD TABLE OF ty_address WITH DEFAULT KEY,
             emails                         TYPE STANDARD TABLE OF ty_email WITH DEFAULT KEY,
             phone_numbers                  TYPE STANDARD TABLE OF ty_phone_number WITH DEFAULT KEY,
+            groups                         TYPE STANDARD TABLE OF ty_update_group WITH DEFAULT KEY,
             telephone_verified             TYPE string,
             mail_verified                  TYPE string,
             locale                         TYPE string,
