@@ -1,7 +1,7 @@
 # Deprecated
 Please used the new SAP Identity Directory SCIM API for ABAP
 
-Replacement API (https://github.com/agiguere/ZIAS_SCIM_REST_API)
+[Replacement API](https://github.com/agiguere/sap-ids-scim-api)
 
 # SCIM REST API for ABAP
 SAP Identity Authentication Services SCIM REST API for ABAP
